@@ -1,4 +1,78 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+body {
+  background: linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%);
+  font-family:'Work Sans', serif;
+  font-weight: 300;
+  margin:0;
+}
+
+.home {
+  height: 800px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
 }
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #D9D9D9;
+}
+
+header {
+  display: block;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 112px;
+  margin-left: 112px;
+}
+
+.home__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__links a {
+  margin-right: 32px;
+}
+
+
+.home a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__content h2 {
+  margin: 0;
+  font-weight: 300;
+  color: rgba(227, 228, 230, 0.55);
+  font-size: 56px;
+  text-align: center;
+  line-height: 84px;
+  max-width: 1050px;
+  height: 168px;
+}
+
+.home__content b {
+  color: #fff;
+}
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.home__transition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
