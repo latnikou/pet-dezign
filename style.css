@@ -115,3 +115,94 @@ header {
 .clients__brands img {
   margin-right: 135px;
 }
+
+.work {
+  margin-right: 112px;
+  margin-left: 112px;
+}
+
+.work__card {
+  color: rgba(227, 228, 230, 0.55);
+  margin-top: 97;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 97px;
+}
+
+.work__card > img {
+  border-radius: 15px;
+  width: 594px;
+  height: 490px;
+}
+
+.work__card__text {
+  padding-left: 32px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.work__card__text p {
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.work__card__text h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 4%;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.work__card__text b{
+  color: #fff;
+}
+
+.work__card__text .work__card__text__thin {
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  width: 163px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.button p{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a img {
+  margin-left: 16px;
+}
+
+.work__heading h2{
+  font-size: 40px;
+  color: rgba(227, 228, 230, 0.55);
+  font-weight: 300;
+}
+
+.work__heading b {
+  font-weight: 600;
+  color: #fff;
+}
+
+#reversed {
+  flex-direction: row-reverse;
+}
