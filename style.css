@@ -40,6 +40,10 @@ header {
   margin-right: 32px;
 }
 
+.home__links a:hover{
+  color: #BC3CD8;
+}
+
 
 .home a {
   display: flex;
@@ -76,3 +80,38 @@ header {
   justify-content: center;
 }
 
+.clients {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 112px;
+  margin-left: 112px;
+  margin-top: 80px;
+}
+
+.clients h2{
+  font-size: 40px;
+  font-weight: 300;
+  color: rgba(227, 228, 230, 0.55);
+  width: 1216px;
+  height: 120px;
+  margin: 0;
+  text-align: left;
+  word-wrap: none;
+}
+
+.clients__text b {
+  font-weight: 600;
+  color: #fff
+}
+
+.clients__brands {
+  margin-top: 95px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.clients__brands img {
+  margin-right: 135px;
+}
