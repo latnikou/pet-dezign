@@ -7,7 +7,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
   <title>Dezign</title>
   <link rel="icon" href="./icons/favicon.ico" sizes="any">
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
@@ -15,7 +16,7 @@
   <link rel="manifest" href="/manifest.webmanifest">
 </head>
 <body>
-  <header>
+  <header id="home">
         <div class="logo-container" title="logo">
           <img src="./assets/Logo.svg" alt="logo">
         </div>
@@ -29,7 +30,7 @@
   </header>
   <h1 style="display: none;">Dezign. A web-designer portfolio.</h1>
 <main>
-    <section class="home" id="home">
+    <section class="home">
         <h2>
           I’m a designer specialising in <b>UI/UX</b> and <b>Interaction Design</b>
         </h2>
@@ -40,80 +41,102 @@
         </a>
       </div>
     </section>
-
-    <!-- <section class="clients" id="clients">
+ <section class="clients" id="clients">
       <div class="clients__text">
         <h2>Some of the <b>clients I have <br>
           designed for</b></h2>
       </div>
       <div class="clients__brands">
-        <img src="./assets/airbnb.svg" alt="">
-        <img src="./assets/google.svg" alt="">
-        <img src="./assets/microsoft logo.svg" alt="">
-        <img src="./assets/FedEx Logo.svg" alt="">
+        <div class="clients__image">
+          <img src="./assets/airbnb.svg" alt="">
+        </div>
+        <div class="clients__image">
+          <img src="./assets/google.svg" alt="">
+        </div>
+        <div class="clients__image">
+          <img src="./assets/microsoft logo.svg" alt="">
+        </div>
+        <div class="clients__image">
+          <img src="./assets/FedEx Logo.svg" alt="">
+        </div>
       </div>
     </section>
-    <section class="work" id="work">
-      
+<section class="work" id="work">
       <h2>Selected <b>Works</b></h2>
-      <div class="work__card">
-        <img src="./assets/work_pic_1.png" alt="">
-        <div class="work__card__text">
-          <h2>Real estate template</h2>
-          <p>Unlock Your Dream Home:<b>Experience Seamless Property Rentals!</b></p>
-          <p class="work__card__text__thin">Website design</p>
-          <div class="button">
-            <a href="#">
-              <p>VIEW WORK</p>
-              <img src="/assets/arrow_right.svg" alt="">
-            </a>
+      <div class="work-card">
+        <div class="work-card__img">
+          <img src="https://cdn.dribbble.com/userupload/3128652/file/original-2abe952ca16659179b0f9b61496b6fe0.png?compress=1&resize=2048x1536" alt="first work">
+        </div>
+        <div class="work-card__text">
+          <h3>Real estate template</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>Minus explicabo nostrum repellat sapiente, ut totam!</b></p>
+          <h4>Website design</h4>
+          <div class="hover">
+            <div class="work-card__link">
+              <a href="https://dribbble.com/shots/18781165-ASGARD-Best-Selling-Real-Estate" title="View Work">View Work</a>
+              <div class="arrow">
+                <img src="assets/arrow_right.svg" alt="arrow">
+              </div>
+          </div>
           </div>
         </div>
       </div>
-      <div class="work__card" id="reversed">
-        <img src="assets/plant pic.png" alt="">
-        <div class="work__card__text">
-          <h2>Plant Identification App</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>Labore dolore aliquam doloremque inventore doloribus voluptatem, iusto.</b></p>
-          <p class="work__card__text__thin">Mobile App</p>
-          <div class="button">
-            <a href="#">
-              <p>VIEW WORK</p>
-              <img src="/assets/arrow_right.svg" alt="">
-            </a>
+      <div class="work-card">
+        <div class="work-card__img">
+          <img src="https://cdn.dribbble.com/userupload/3128652/file/original-2abe952ca16659179b0f9b61496b6fe0.png?compress=1&resize=2048x1536" alt="first work">
+        </div>
+        <div class="work-card__text">
+          <h3>Real estate template</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>Minus explicabo nostrum repellat sapiente, ut totam!</b></p>
+          <h4>Website design</h4>
+          <div class="hover">
+            <div class="work-card__link">
+              <a href="https://dribbble.com/shots/18781165-ASGARD-Best-Selling-Real-Estate" title="View Work">View Work</a>
+              <div class="arrow">
+                <img src="assets/arrow_right.svg" alt="arrow">
+              </div>
+          </div>
           </div>
         </div>
       </div>
-      <div class="work__card">
-        <img src="assets/smart home app.png" alt="">
-        <div class="work__card__text">
-          <h2>Smart Home App</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>Labore dolore aliquam doloremque inventore doloribus voluptatem, iusto.</b></p>
-          <p class="work__card__text__thin">Mobile App</p>
-          <div class="button">
-            <a href="#">
-              <p>VIEW WORK</p>
-              <img src="/assets/arrow_right.svg" alt="">
-            </a>
+      <div class="work-card">
+        <div class="work-card__img">
+          <img src="https://cdn.dribbble.com/userupload/3128652/file/original-2abe952ca16659179b0f9b61496b6fe0.png?compress=1&resize=2048x1536" alt="first work">
+        </div>
+        <div class="work-card__text">
+          <h3>Real estate template</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>Minus explicabo nostrum repellat sapiente, ut totam!</b></p>
+          <h4>Website design</h4>
+          <div class="hover">
+            <div class="work-card__link">
+              <a href="https://dribbble.com/shots/18781165-ASGARD-Best-Selling-Real-Estate" title="View Work">View Work</a>
+              <div class="arrow">
+                <img src="assets/arrow_right.svg" alt="arrow">
+              </div>
+          </div>
           </div>
         </div>
       </div>
-      <div class="work__card" id="reversed">
-        <img src="./assets/design logo.png" alt="">
-        <div class="work__card__text">
-          <h2>Logo Animation</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>Labore dolore aliquam doloremque inventore doloribus voluptatem, iusto.</b></p>
-          <p class="work__card__text__thin">Animation</p>
-          <div class="button">
-            <a href="#">
-              <p>VIEW WORK</p>
-              <img src="/assets/arrow_right.svg" alt="">
-            </a>
+      <div class="work-card">
+        <div class="work-card__img">
+          <img src="https://cdn.dribbble.com/userupload/3128652/file/original-2abe952ca16659179b0f9b61496b6fe0.png?compress=1&resize=2048x1536" alt="first work">
+        </div>
+        <div class="work-card__text">
+          <h3>Real estate template</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>Minus explicabo nostrum repellat sapiente, ut totam!</b></p>
+          <h4>Website design</h4>
+          <div class="hover">
+            <div class="work-card__link">
+              <a href="https://dribbble.com/shots/18781165-ASGARD-Best-Selling-Real-Estate" title="View Work">View Work</a>
+              <div class="arrow">
+                <img src="assets/arrow_right.svg" alt="arrow">
+              </div>
+          </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="about" id="about">
+    <!-- <section class="about" id="about">
       <div class="about__text">
         <h2>A bit about me</h2>
         <p>I am a UI/UX designer who is passionate about creating <b>beautiful and joyful digital experiences. Besides design, I love music, games and travelling.</b></p>
@@ -123,8 +146,8 @@
         <img src="assets/dualshock.png" alt="">
         <img src="assets/mountains.png" alt="">
       </div>
-    </section>  
-  </main> -->
+    </section>   -->
+  </main> 
   <!-- <footer>
     <h2>Get <b>in Touch.</b></h2>
     <p>So that we can talk more about...</p>
