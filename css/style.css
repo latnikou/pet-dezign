@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 14px;
 }
 
 body {
@@ -231,7 +232,7 @@ header ul {
   text-transform: uppercase;
   color: var(--white);
   font-weight: 600;
-  letter-spacing: 4%;
+  letter-spacing: 1px;
   font-size: 24px;
 }
 

@@ -1,19 +1,6 @@
-/* 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   body {
     max-width: 900px;
-  }
-
-  .home {
-    height: 650px;
-  }
-  
-}
-
-@media (max-width: 990px) {
-  body {
-    max-width: 700px;
-    font-size: 0.75rem;
   }
 
   .home h2 {
@@ -41,17 +28,107 @@
   }
 
   .clients__brands {
-    flex-direction: column;
-    gap:68px;
+    gap: 32px;
   }
 
+  .about__pics {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: start;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .about__text {
+    align-items: center;
+  }
+
+  .about > h2 {
+    text-align: center;
+  }
 }
 
-
-@media (max-width: 770px) {
+@media (max-width: 992px) {
   body {
-    max-width: 500px;
+    max-width: 792px;
   }
+
+  .home h2 {
+    font-size: 2rem;
+  }
+
+  header a {
+    font-size: 1rem;
+  }
+
+  .home {
+    height: 350px;
+  }
+  .home h2 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
+
+  .home__arrow {
+    margin-bottom: 28px;
+  }
+
+  .clients h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .clients__brands {
+    gap: 32px;
+  }
+
+  .clients__brands img {
+    width: 95%;
+    height: 95%;
+  }
+
+  .work-card__img img {
+    width: 490px;
+    height: 400px;
+  }
+
+  .about__pics {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: start;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .about__text {
+    align-items: center;
+  }
+
+  .about__text h2 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .about__text p {
+    font-size: 28px;
+  }
+
+  footer h2 {
+    font-size: 35px;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -68,4 +145,4 @@
   .logo-container {
     display: none;
   }
-} */
+}
