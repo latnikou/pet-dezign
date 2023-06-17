@@ -1,10 +1,11 @@
 # **Dezign pet-project**
 
 This repo contains my layout from [frontend-skills.com](https://frontend-skills.com).
-I do not own any of dribble designs. All links from the authors.
-
 
 > huge thanks to [Andrey Kudinov](https://github.com/andrey-kudinov) for freview
+
+*I do not own any of designs. All links belongs to the authors.*
+
 
 ## **What I've used**
 - [normalize.css](https://necolas.github.io/normalize.css/)
