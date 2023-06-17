@@ -77,6 +77,10 @@ header ul {
   body {
     max-width: 900px;
   }
+
+  .home {
+    height: 650px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -91,6 +95,17 @@ header ul {
 
   header a {
     font-size: 0.75rem;
+  }
+
+  .home {
+    height: 350px;
+  }
+  .home h2 {
+    margin-top: 50px;
+  }
+
+  .home__arrow {
+    margin-bottom: 28px;
   }
 
 }
@@ -111,6 +126,10 @@ header ul {
 @media (max-width: 375px) {
   body {
     max-width: 250px;
+  }
+
+  .logo-container {
+    display: none;
   }
 }
 /* 
