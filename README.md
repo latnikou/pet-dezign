@@ -1,20 +1,26 @@
 # **Dezign pet-project**
 
-This repo contains my layout from [frontend-skills.com](https://frontend-skills.com)
+This repo contains my layout from [frontend-skills.com](https://frontend-skills.com).
+I do not own any of dribble designs. All links from the authors.
 
 [Take a look](https://latnikou.github.io/pet-dezign/)
 
 > huge thanks to [Andrey Kudinov](https://github.com/andrey-kudinov) for freview
 
+## **What I've used**
+- [normalize.css](https://necolas.github.io/normalize.css/)
+- [BEM](https://ru.bem.info/)(not 100%)
+- Evil Martians favicon [guide](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 
 ## **To Do**
-- [ ] responsive
+- [ ] media.css
 - [ ] dark/light theme 
+- [ ] fix navigation '::before' line 
 
 ## **Done**
-
 - [x] favicons from [Evil Martians Guide](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 - [x] default document structure(header-main-footer)
+- [x] smooth scrolling
 
 ## **Links**
 - [Source](https://frontend-skills.com/template/FQvOXqylrjWfP5vg7Fhl)
