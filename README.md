@@ -1,14 +1,16 @@
-# Привет!
+# **Dezign pet-project**
 
-В этом репозитории хранится пример лендинга-макета с frontend-skills.  
+This repo contains my layout from [frontend-skills.com](https://frontend-skills.com)
 
-[Ссылка на готовую работу](https://latnikou.github.io/pet-dezign/)
+[Take a look](https://latnikou.github.io/pet-dezign/)
 
-Я верстал этот лендинг по блокам, поэтому в коммитах можно посмотреть изменения и дополнения.
+> huge thanks to [Andrey Kudinov](https://github.com/andrey-kudinov) for freview
 
-### Чем можно дополнить?
-* Адаптивная вёрстка
-* Исправить отступы, местами поменять флексы и гриды
-* Добавить светлую тему 
 
-[Исходник](https://frontend-skills.com/template/FQvOXqylrjWfP5vg7Fhl)
+## **To Do**
+- [ ] responsive
+- [ ] dark/light theme 
+
+## **Links**
+- [Source](https://frontend-skills.com/template/FQvOXqylrjWfP5vg7Fhl)
+- [Contact me](https://t.me/latnikov)
