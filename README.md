@@ -13,11 +13,12 @@ This repo contains my layout from [frontend-skills.com](https://frontend-skills.
 - Evil Martians favicon [guide](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 
 ## **To Do**
-- [ ] media.css
+- [ ] fix 'first' class in about section
 - [ ] dark/light theme 
 - [ ] fix navigation '::before' line 
 
 ## **Done**
+- [x] media.css(responsive layout)
 - [x] favicons from [Evil Martians Guide](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 - [x] default document structure(header-main-footer)
 - [x] smooth scrolling
