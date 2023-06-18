@@ -1,3 +1,11 @@
+:root {
+  --grey: #E3E4E6;
+  --gray: #acabab;
+  --white: #fff;
+  --black: #010208;
+  --ivory: #F6F4F3;
+}
+
 @media (max-width: 1200px) {
   body {
     max-width: 900px;
@@ -431,5 +439,111 @@
 
   .logo-container {
     display: none;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  html {
+    background: var(--black);
+    color: var(--gray);
+  }
+}
+
+@media screen and (prefers-color-scheme: light) {
+  html {
+    background: var(--ivory);
+    color: var(--black);
+  }
+  
+  body {
+    background: var(--ivory);
+    color: var(--black);
+  }
+
+  nav a{
+    color: var(--black)
+  }
+
+  .work-card__text p b {
+  color: var(--black);
+  }
+
+  .work h2 {
+    color: var(--black);
+  }
+
+  .work h2 b{
+    color: var(--black);
+  }
+
+  .home h2 {
+    color: var(--black);
+  }
+
+  .home h2 b {
+    color: var(--black);
+  }
+
+  .home__arrow img {
+    content:url(../assets/arrow\ black.svg);
+  }
+
+  .work-card__link  a{
+    color: var(--black);
+  }
+
+  .work-card__link {
+    box-shadow:0 0 0 1px var(--black);
+  }
+
+  .clients__image:first-child {
+    content: url(../assets/airbnb\ black.svg)
+  }
+  .clients__image:nth-child(2){
+    content: url(../assets/google\ black.svg)
+  }
+  .clients__image:nth-child(3){
+    content: url(../assets/microsoft\ logo\ black.svg)
+  }
+  .clients__image:nth-child(4){
+    content: url(../assets/FedEx\ Logo\ black.svg)
+  }
+
+  footer h2 b {
+    color: var(--black);
+  }
+
+  .about h2{
+    color: var(--black);
+  }
+
+  .about p b{
+    color: var(--black);
+  }
+
+  footer p b{
+    color: var(--black);
+  }
+
+  .work-card__link >.arrow > img{
+    content: url(../assets/arrow_right\ black.svg);
+  }
+
+  .work-card__img img {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .links a{
+    background: var(--black) ;
+    border-radius: 15px;
+  }
+
+  .mail_pic {
+    display: grid;
+    place-items: center;
+  }
+
+  .links a:hover {
+    background: #C54B8C;
   }
 }
